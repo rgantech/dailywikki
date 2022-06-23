@@ -1,0 +1,126 @@
+.infobox {
+    width: 26em !important;
+    float: right;
+    clear: right;
+    margin-left: 21px;
+    border-left: 1px solid #e5e5e5;
+    border-right: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+    border-top: 1px solid #e5e5e5;
+    display: block;
+    padding: 20px;
+    margin-bottom: 50px;
+    background: transparent !important;
+    color: #000 !important;
+    font-size: 14px;
+}
+
+#toc {
+    border: 1px solid #ccc;
+    padding: 30px 5px 5px 5px;
+    width: 200px;
+    top: 0;
+    left: 0;
+    height: -webkit-fill-available;
+    position: fixed;
+    overflow-x: scroll;
+    background-color: #f1f1f1;
+    display: none;
+}
+
+.mw-parser-output .navbox {
+    box-sizing: border-box;
+    border: 1px solid #a2a9b1;
+    width: 100%;
+    clear: both;
+    font-size: 88%;
+    text-align: center;
+    padding: 1px;
+    margin: 1em auto 0;
+}
+
+.row.single-top {
+    padding-top: 100px;
+}
+
+a {
+    color: #198754;
+    text-decoration: none;
+    font-size: 14px;
+}
+.thumbcaption {
+    font-size: 14px;
+}
+p {
+    color: #000;
+    font-size: 14px;
+}
+
+ul {
+    color: #000;
+    font-size: 15px;
+}
+
+span.mw-editsection {
+    display: none;
+}
+
+h2 span {
+    color: #198754;
+}
+
+h2 {
+    font-size: 23px;
+    margin-bottom: 12px;
+}
+
+h3 {
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+
+h3 span {
+    color: #198754;
+}
+
+ul li {
+    padding: 7px 0px;
+    font-size: 14px;
+}
+table.nowraplinks.hlist.mw-collapsible.autocollapse.navbox-inner ul li {
+    display: inline;
+}
+.hlist dl,
+.hlist ol,
+.hlist ul {
+    margin: 0;
+    padding: 0;
+}
+.hlist dd, .hlist dt, .hlist li {
+    margin: 0;
+    display: inline;
+}
+.thumb {
+    float: right;
+    clear: both;
+    padding: 10px;
+    border: 1px dotted #edebeb;
+}
+footer.container {
+    margin-top: 40px;
+}
+.sideNav {
+    background: transparent !important;
+    width: 90px;
+}
+a.navbar-brand {
+    position: relative;
+    left: 100px;
+}
+.sideNav button.navbar-toggler {background: transparent;}
+.navbar-light .navbar-toggler-icon {
+    filter: invert(100%);
+}
+li.toclevel-2 {margin-left: 15px;}
+
+li.toclevel-3 {margin-left: 30px;}

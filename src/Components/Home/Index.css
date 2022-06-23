@@ -1,0 +1,53 @@
+.a {
+    text-decoration: none;
+    color: #198754 !important;
+}
+.post-data p.titles {
+    text-decoration: none;
+    color: #198754 !important;
+    font-size: 17px;
+    text-align: center;
+}
+hr.featurette-divider.top-one {
+    margin: 2rem 0;
+}
+.thumb {
+    float: right;
+    clear: both;
+    padding: 10px;
+    border: 1px dotted #edebeb;
+}
+
+.thumbcaption {font-size: 14px;}
+.featurette-heading {
+    font-size: 27px;
+}
+lead {font-size: 16px;}
+h1 {font-size: 30px;}
+img.bd-placeholder-img.rounded-circle {text-align: center;margin-bottom: 10px;}
+
+.post-data {display: flex;flex-wrap: wrap;justify-content: center;align-items: center;margin: 20px 0;}
+h1.on-this-day {
+    margin-bottom: 35px;
+    margin-top: 15px;
+}
+
+.post-data img {display: flex;flex-wrap: wrap;}
+
+.post-data p {flex: 0 0 100%;justify-content: center;flex-wrap: wrap;display: flex;align-items: center;margin: 0;}
+.post-data a {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.feat {display: none;}
+
+.feat.feat-0 {display: block;}
+
+.latest-news a {font-size: 16px;font-weight: 500;}
+.featimage {display: none;}
+.featimage.featimage-0 {display: block;}
+.right-side-section {
+    margin-left: 50px;
+}
+.latest-news p a {font-size: 14px;}
