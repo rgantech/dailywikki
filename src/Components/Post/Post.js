@@ -46,7 +46,7 @@ const Post = (props) => {
             singleData && Object.values(singleData)?.map(function (data, i) {
               return (
                 <div className='' key={i}>
-                  {parse(data.text.replace(new RegExp('/wiki/', "g"), ""))}
+                  {parse(data?.text?.replace(new RegExp('/wiki/', "g"), ""))}
                 </div>
               )
             })

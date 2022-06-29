@@ -5,7 +5,7 @@ import { useEffect } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import blog1 from '../../Images/blog1.jpg'
 import blog2 from '../../Images/blog2.jpg'
-import { Parser } from 'htmlparser2'
+import parse from 'html-react-parser';
 import { forHomeurl } from '../../Api/HomeApi'
 import axios from 'axios'
 import LoaderCustom from '../LoaderCustom/LoaderCustom'
@@ -100,7 +100,7 @@ const Home = () => {
     }
    
     <p><span>Views:</span> {data?.views}</p>
-    <p className='titles'>{data?.title.replace (/_/g, " ")}</p>
+    <p className='titles'>{data?.title?.replace (/_/g, " ")}</p>
     </Link>
   </div>
   </div>
@@ -117,7 +117,6 @@ const Home = () => {
   {
 
 popular && Object.values(popular).map((data,index) => {
-   //console.log('==========',data)
  return(
   <div className={`feat feat-${index}`} key={index}>
   <p className="lead">{data?.normalizedtitle}</p>
@@ -147,7 +146,7 @@ popular && Object.values(popular).map((data,index) => {
     data.links.map((item,i) => {
      return(
       <div className='latest-news' key={i}>
-     <p><Link to={`${item.title}`} className="lead">{item?.displaytitle}</Link></p>
+     <p><Link to={`${item.title}`} className="lead">{parse(item?.displaytitle)}</Link></p>
       </div>
      )
     })
