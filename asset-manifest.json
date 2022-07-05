@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/dailywikki/static/css/main.7235901d.css",
-    "main.js": "/dailywikki/static/js/main.4a9904ac.js",
+    "main.js": "/dailywikki/static/js/main.58c54611.js",
     "static/js/787.4e1de231.chunk.js": "/dailywikki/static/js/787.4e1de231.chunk.js",
     "static/media/blog2.jpg": "/dailywikki/static/media/blog2.9e8bf6c251d65aa0dd40.jpg",
     "static/media/blog1.jpg": "/dailywikki/static/media/blog1.385e0bf0bae586222abd.jpg",
     "index.html": "/dailywikki/index.html",
     "main.7235901d.css.map": "/dailywikki/static/css/main.7235901d.css.map",
-    "main.4a9904ac.js.map": "/dailywikki/static/js/main.4a9904ac.js.map",
+    "main.58c54611.js.map": "/dailywikki/static/js/main.58c54611.js.map",
     "787.4e1de231.chunk.js.map": "/dailywikki/static/js/787.4e1de231.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7235901d.css",
-    "static/js/main.4a9904ac.js"
+    "static/js/main.58c54611.js"
   ]
 }
